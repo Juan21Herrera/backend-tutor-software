@@ -23,7 +23,7 @@ def welcome_root():
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://tutor-software.vercel.app/"],
+    allow_origins=["https://tutor-software.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
